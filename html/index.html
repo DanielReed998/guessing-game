@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Guessing Game</title>
+
+    <!-- Bootstrap and CSS here-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+
+</head>
+
+<body>
+
+    <div id='app' class='center container'>
+
+        <div id='headers' class='center'>
+            <h1>Guessing Game!</h1>
+            <h2>Guess a number between 1 and 100</h2>
+        </div>
+
+        <div id='main'>
+            <div id='input-parent'>
+                <input id='player-input' placeholder='#' maxlength='3' autofocus="autofocus"></input>
+                <button id='submit-button' class='btn btn-success'>Go</button>
+            </div>
+
+            <div id='guesses'>
+                <ul>
+                    <li class='guess'>--</li>
+                    <li class='guess'>--</li>
+                    <li class='guess'>--</li>
+                    <li class='guess'>--</li>
+                    <li class='guess'>--</li>
+                </ul>
+            </div>
+
+            <div>
+                <button id="reset-button" class='btn btn-dark'>Reset</button>
+                <button id "hint-button" class='btn btn-dark'>Hint</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id='footer' class="center">
+        <div class='row'>
+            <div class='col-sm-4'>
+                <img src='fa-logo@2x.png'></img>
+            </div>
+
+            <div class='col-sm-4'>
+                <h4>Project by Daniel Reed</h4>
+            </div>
+
+            <div class='col-sm-4'>
+                <img src='grace_hopper_academy.png'></img>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>

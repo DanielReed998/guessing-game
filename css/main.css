@@ -1,0 +1,77 @@
+.center {
+    text-align: center;
+}
+
+body {
+    background-image: url(questionmarks.jpg);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+img {
+    display: inline;
+    width: 250px;
+    height: 100px;
+}
+
+#headers {
+    border-radius: 10px;
+    color: lightgray;
+    background-color: rgba(0, 0, 0, 0.66);
+    width: 530px;
+    height: 100px;
+    margin: 20px auto 15px auto;
+}
+
+li {
+    background: rgba(0, 0, 0, 0.66);
+    color: lightgray;
+}
+
+#footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+#guesses {
+    margin-top: 10px;
+}
+
+.guess {
+    display: inline;
+    border-style: groove;
+    border-radius: 5px;
+    font-size: 2em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#input-parent {
+    position: relative;
+    margin: 0 auto 25px auto;
+    width: 160px;
+}
+
+#player-input {
+    border-radius: 50%;
+    text-align: center;
+    font-size: 3em;
+    width: 150px;
+    height: 150px;
+}
+
+#submit-button {
+    position: absolute;
+    top: 115px;
+    left: 110px;
+    text-align: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}

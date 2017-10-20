@@ -4,8 +4,6 @@
 <head>
     <title>Guessing Game</title>
 
-    <!-- Bootstrap and CSS here-->
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/main.css">
 
@@ -26,8 +24,8 @@
                 <button id='submit-button' class='btn btn-success'>Go</button>
             </div>
 
-            <div id='guesses'>
-                <ul>
+            <div>
+                <ul id='guesses'>
                     <li class='guess'>--</li>
                     <li class='guess'>--</li>
                     <li class='guess'>--</li>
@@ -38,7 +36,11 @@
 
             <div>
                 <button id="reset-button" class='btn btn-dark'>Reset</button>
-                <button id "hint-button" class='btn btn-dark'>Hint</button>
+                <button id="hint-button" class='btn btn-dark'>Hint(1)</button>
+            </div>
+
+            <div>
+                <h3 id='hint-box' class='center'></h3>
             </div>
         </div>
     </div>
@@ -62,7 +64,8 @@
 
         </div>
     </div>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="C://Users//Daniel//foundations//guessing-game//js//game.js"></script>
 </body>
 
 </html>
